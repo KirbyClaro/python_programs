@@ -5,3 +5,8 @@
 
 first_num = int(input("Input first number: "))
 second_num = int(input("Input second number: "))
+
+if first_num == second_num:
+    print("Equal")
+elif 
+    print("Not equal")
