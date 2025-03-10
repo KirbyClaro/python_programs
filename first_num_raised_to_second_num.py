@@ -2,3 +2,6 @@
 #input base number and exponent number
 #multiply 
 #print the result
+
+base = int(input("Enter the base number: "))
+exponent = int(input("Enter the exponent number: "))
