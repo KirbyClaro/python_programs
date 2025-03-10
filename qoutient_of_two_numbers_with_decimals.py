@@ -5,3 +5,7 @@
 
 numerator  = int(input("Enter the first number (Numerator): "))
 denominator = int(input("Enter the second number (Denominator): "))
+
+qoutient = numerator // denominator
+
+print("The quotient of", numerator, "and", denominator, "is", qoutient)
