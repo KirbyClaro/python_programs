@@ -3,3 +3,7 @@
 #if else statements for picking only the even numbers
 #print the even numbers
 
+
+for i in range(101)
+    if i % 2 == 0:
+        print(i)
