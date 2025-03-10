@@ -5,3 +5,7 @@
 
 first_number = int(input("Input the first number: "))
 second_number = int(input("Input the second number: "))
+
+product = first_number * second_number
+
+print("The product of", first_number, "and", second_number, "is:", product)
