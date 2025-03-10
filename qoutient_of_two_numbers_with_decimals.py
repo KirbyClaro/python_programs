@@ -3,9 +3,9 @@
 #divide the numbers
 #print result of the program
 
-numerator  = int(input("Enter the first number (Numerator): "))
-denominator = int(input("Enter the second number (Denominator): "))
+numerator  = float(input("Enter the first number (Numerator): "))
+denominator = float(input("Enter the second number (Denominator): "))
 
-qoutient = numerator // denominator
+qoutient = numerator / denominator
 
 print("The quotient of", numerator, "and", denominator, "is", qoutient)
