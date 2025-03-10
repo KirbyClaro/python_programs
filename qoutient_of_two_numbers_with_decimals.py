@@ -2,3 +2,6 @@
 #input two numbers with decimal point
 #divide the numbers
 #print result of the program
+
+numerator  = int(input("Enter the first number (Numerator): "))
+denominator = int(input("Enter the second number (Denominator): "))
