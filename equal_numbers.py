@@ -2,3 +2,6 @@
 #Input numbers 
 #Compare numbers
 #Print output/result
+
+first_num = int(input("Input first number: "))
+second_num = int(input("Input second number: "))
