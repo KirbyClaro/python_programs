@@ -3,9 +3,12 @@
 #divide the numbers
 #print result of the program
 
+#input the numerator and denominator
 numerator  = float(input("Enter the first number (Numerator): "))
 denominator = float(input("Enter the second number (Denominator): "))
 
+#calculate the quotient
 qoutient = numerator / denominator
 
+#print the quotient with decimal point
 print("The quotient of", numerator, "and", denominator, "is", qoutient)
