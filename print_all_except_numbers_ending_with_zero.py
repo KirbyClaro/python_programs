@@ -2,3 +2,7 @@
 #use a for statement
 #if else statements for picking only the numbers ending in zero
 #print the numbers not ending in zero
+
+for i in range(101):
+    if i % 10!= 0:
+        print(i)
