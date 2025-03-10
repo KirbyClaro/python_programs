@@ -3,8 +3,11 @@
 #add all the numbers
 #print all the numbers
 
+total_of_numbers = 0
+print("Enter 10 numbers:")
+
 for i in range(10):
     numbers = int(input(f"Enter number {i+1}: "))
     total_of_numbers += numbers
 
-print("Sum of all numbers:", i)
+print("Sum of all numbers:", total_of_numbers)
