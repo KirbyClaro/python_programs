@@ -3,9 +3,12 @@
 #multiply 
 #print the result
 
+# get user input for base number and exponent number
 base = int(input("Enter the base number: "))
 exponent = int(input("Enter the exponent number: "))
 
+# calculate the result by raising base to exponent
 result = base ** exponent
 
+# print the result
 print(f"The result of {base} raised to the power of {exponent} is: {result}")
