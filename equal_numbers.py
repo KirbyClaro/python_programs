@@ -10,6 +10,6 @@ second_num = int(input("Input second number: "))
 #Output numbers
 if first_num == second_num:
     print("Equal")
-#Added elif if the numbers are not equal it still prints
-elif 
+#Added else if the numbers are not equal it still prints
+else:
     print("Not equal")
