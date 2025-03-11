@@ -2,3 +2,6 @@
 #input two numbers
 #subtract two numbers
 #print the difference of the two numbers
+
+first_number = int(input("Enter the First number: "))
+second_number = int(input("Enter the Second number: "))
