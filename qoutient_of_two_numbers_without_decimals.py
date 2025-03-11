@@ -5,3 +5,7 @@
 
 first_number = int(input("Enter the First number: "))
 second_number = int(input("Enter the Second number: "))
+
+qoutient = first_number / second_number
+
+print (qoutient)
