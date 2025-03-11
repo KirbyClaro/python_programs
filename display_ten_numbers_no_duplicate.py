@@ -9,3 +9,6 @@ print("Enter 10 Numbers")
 for i in range(10):
     numbers_input = int(input(f"Enter the number {i+1}:"))
     numbers.append(numbers_input)
+
+unique_numbers = [numbers_input for numbers_input in numbers if numbers.count(numbers_input) == 1]
+print("Unique numbers:", unique_numbers)
