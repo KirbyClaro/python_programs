@@ -7,3 +7,5 @@
 first_number = int(input("Enter the first number: "))
 result = first_number 
 
+for i in range(9):
+    numbers = int(input(f"Enter the number {i+1}:"))
