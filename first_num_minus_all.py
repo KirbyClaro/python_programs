@@ -9,3 +9,6 @@ result = first_number
 
 for i in range(9):
     numbers = int(input(f"Enter the number {i+1}:"))
+    result -= numbers
+
+print("The result of", first_number, "minus all of the remaining numbers is:", result)
