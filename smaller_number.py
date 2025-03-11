@@ -3,7 +3,9 @@
 #pick smallest number
 #print the smallest number
 
+# input numbers
 first_number = int(input("Enter the first number: "))
 second_number = int(input("Enter the second number: "))
 
+# output the smallest number
 print("The smaller number is", min(first_number, second_number))
