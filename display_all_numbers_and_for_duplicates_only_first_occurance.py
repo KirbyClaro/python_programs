@@ -7,4 +7,9 @@
 
 print("Enter 10 numbers:")
 for i in range(10):
-    numbers = float(input(f"Enter each number {i+1}: "))
+    numbers_ten = float(input(f"Enter each number {i+1}: "))
+    numbers.append(numbers_ten)
+
+print("all numbers entered:")
+for numbers in numbers_ten:
+    print(numbers)
