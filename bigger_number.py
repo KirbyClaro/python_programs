@@ -8,4 +8,4 @@ first_num = int(input("Enter the first number: "))
 second_num = int(input("Enter the second number: "))
 
 #Output
-print ("The bigger number is", max(first_num, second_num))
+print("The bigger number is", max(first_num, second_num))
