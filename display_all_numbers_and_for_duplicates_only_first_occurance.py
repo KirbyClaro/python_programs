@@ -5,3 +5,6 @@
 #print all numbers
 #find and display first occurrence of each number
 
+print("Enter 10 numbers:")
+for i in range(10):
+    numbers = float(input(f"Enter each number {i+1}: "))
