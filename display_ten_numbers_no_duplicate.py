@@ -3,7 +3,7 @@
 #create if statement to only display numbers without duplicates
 #display all numbers that don't have duplicate
 
-numbers = 0
+numbers = []
 
 print("Enter 10 Numbers")
 for i in range(10):
