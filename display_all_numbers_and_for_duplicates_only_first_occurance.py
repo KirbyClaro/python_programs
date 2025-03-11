@@ -4,6 +4,7 @@
 #create list for the numbers
 #print all numbers
 #find and display first occurrence of each number
+numbers = []
 
 print("Enter 10 numbers:")
 for i in range(10):
@@ -11,5 +12,5 @@ for i in range(10):
     numbers.append(numbers_ten)
 
 print("all numbers entered:")
-for numbers in numbers_ten:
+for numbers_ten in numbers:
     print(numbers)
