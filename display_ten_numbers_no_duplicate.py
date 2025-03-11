@@ -5,7 +5,7 @@
 
 numbers = 0
 
+print("Enter 10 Numbers")
 for i in range(10):
-    numbers = int(input(f"Enter the number {i+1}:"))
-    if numbers not in (numbers_list + [None]):
-        print(numbers)
+    numbers_input = int(input(f"Enter the number {i+1}:"))
+    numbers.append(numbers_input)
