@@ -12,12 +12,12 @@ for i in range(10):
     
 
 print("all numbers entered:")
-for numbers_ten in numbers:
-    print(numbers)
+for number in numbers:
+    print(number)
 
 print("\nNumbers (showing only first occurrence):")
 unique_numbers = [] 
-for numbers_ten in numbers:
-    if numbers_ten not in unique_numbers:
+for numbers in numbers:
+    if numbers not in unique_numbers:
         print(numbers_ten)
         unique_numbers.append(numbers_ten)
