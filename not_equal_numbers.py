@@ -8,3 +8,5 @@ second_number = int(input("Enter the second number: "))
 
 if first_number != second_number:
     print("Not Equal")
+elif first_number == second_number:
+    print("Equal")
