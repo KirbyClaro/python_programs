@@ -5,3 +5,7 @@
 
 first_number = int(input("Enter the first number: "))
 second_number = int(input("Enter the second number: "))
+
+print(f"The numbers between {first_number} and {second_number} are:")
+for i in range(min(first_number, second_number), max(first_number, second_number)) :
+    print(i)
