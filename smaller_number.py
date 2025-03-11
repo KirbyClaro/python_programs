@@ -2,3 +2,6 @@
 #input numbers
 #pick smallest number
 #print the smallest number
+
+first_number = int(input("Enter the first number: "))
+second_number = int(input("Enter the second number: "))
