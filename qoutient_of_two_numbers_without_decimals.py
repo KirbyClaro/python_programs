@@ -2,3 +2,6 @@
 #input the two numbers
 #divide the numbers 
 #print the quotient of the two numbers
+
+first_number = int(input("Enter the First number: "))
+second_number = int(input("Enter the Second number: "))
