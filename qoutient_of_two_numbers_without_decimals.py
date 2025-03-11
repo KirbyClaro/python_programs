@@ -3,9 +3,12 @@
 #divide the numbers 
 #print the quotient of the two numbers
 
-first_number = int(input("Enter the First number: "))
-second_number = int(input("Enter the Second number: "))
+#input the numerator and denominator
+numerator = int(input("Enter the numerator: "))
+denominator = int(input("Enter the denominator: "))
 
-qoutient = first_number / second_number
+#calculate the quotient
+qoutient = numerator / denominator
 
+#print the quotient without the decimal point
 print (qoutient)
