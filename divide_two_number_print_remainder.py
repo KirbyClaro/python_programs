@@ -3,3 +3,6 @@
 #input two numhbers 
 #divide the numbers and print the remainder 
 #print the remainder
+
+first_number = int(input("Enter the first number: "))
+second_number = int(input("Enter the second number: ")) 
