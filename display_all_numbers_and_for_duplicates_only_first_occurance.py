@@ -8,9 +8,16 @@ numbers = []
 
 print("Enter 10 numbers:")
 for i in range(10):
-    numbers_ten = float(input(f"Enter each number {i+1}: "))
-    numbers.append(numbers_ten)
+    numbers_ten = int(input(f"Enter each number {i+1}: "))
+    
 
 print("all numbers entered:")
 for numbers_ten in numbers:
     print(numbers)
+
+print("\nNumbers (showing only first occurrence):")
+unique_numbers = [] 
+for numbers_ten in numbers:
+    if numbers_ten not in unique_numbers:
+        print(numbers_ten)
+        unique_numbers.append(numbers_ten)
