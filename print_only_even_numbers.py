@@ -2,3 +2,7 @@
 #input ten numbers using range 
 #add the even numbers to the count
 #print all the even numbers counted
+
+for i in range(10):
+    numbers = int(input|(f"Enter the number{i+1}: "))
+    if numbers % 2 == 0:
