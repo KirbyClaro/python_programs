@@ -4,9 +4,12 @@
 #divide the numbers and print the remainder 
 #print the remainder
 
+#input two numbers
 first_number = int(input("Enter the first number: "))
 second_number = int(input("Enter the second number: ")) 
 
+#divide the numbers and print the remainder
 remainder = first_number % second_number
 
+#print the remainder
 print("The remainder when", first_number, "is divided by", second_number, "is:", remainder)
