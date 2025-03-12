@@ -7,12 +7,27 @@
 
 numbers = []
 
-#get user input for 10 numbers and store them in the list 'numbers'
-print("Enter 10 Numbers")
-for i in range(20):
-    numbers_input = int(input(f"Enter the number {i+1}: "))
-    numbers.append(numbers_input)
+while True:
+    try:
+        number = int(input("Enter a number (Enter Invalid input to stop): "))
+        if number in numbers:
+            print("Duplicate Number")
+        else:
+            print("Unique Number")
+            numbers.append(number)
+    except ValueError:
+        print("Invalid input. Please enter a valid number.")
+        break
 
-#find and display unique numbers
-unique_numbers = [numbers_input for numbers_input in numbers if numbers.count(numbers_input) == 1]
-print("Unique numbers:", unique_numbers)
+# Display all numbers entered
+print("\nAll numbers entered:")
+for number in numbers:
+    print(number)
+
+# Display the first occurrence of each number.
+print("\nNumbers (showing only first occurrence):")
+unique_numbers = []
+for number in numbers:
+    if number not in unique_numbers:
+        print(number)
+        unique_numbers.append(number)
