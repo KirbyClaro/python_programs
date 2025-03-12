@@ -23,10 +23,11 @@ while True:
         print("Invalid input! Please enter a valid number.")
         continue
 
+    # Display sorted numbers if any
     if len(numbers) == 0:
         print("No numbers were entered.")
     else:
-       
+        # Sort numbers from lowest to highest
         sorted_numbers = sorted(numbers)
         print("\nNumbers in order from lowest to highest:")
         for num in sorted_numbers:
