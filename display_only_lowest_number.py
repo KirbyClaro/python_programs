@@ -2,8 +2,10 @@
 #ask user to input till invalid
 #only display the lowest number
 
+# Initialize lowest_number as infinity to store the smallest number inputted.
 lowest_number = float('inf')
 
+# Loop until the user enters an invalid input.
 while True:
     try:
         # Input a number
@@ -20,6 +22,7 @@ while True:
         print("Invalid input. Program will now exit.")
         break
 
+# Check if any numbers were entered. If not, display a message. Otherwise, display the lowest number.
 if lowest_number == float('inf'):
     print("No numbers were entered.")
 else:
