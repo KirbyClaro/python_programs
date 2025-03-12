@@ -22,3 +22,12 @@ while True:
     except ValueError:
         print("Invalid input! Please enter a valid number.")
         continue
+
+    if len(numbers) == 0:
+        print("No numbers were entered.")
+    else:
+       
+        sorted_numbers = sorted(numbers)
+        print("\nNumbers in order from lowest to highest:")
+        for num in sorted_numbers:
+            print(num)
