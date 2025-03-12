@@ -3,3 +3,22 @@
 #ask user to input till user input is invalid 
 #sort values inputed by user input from lowest to highest
 #display the number from lowest to highest
+
+numbers = []
+    
+while True:
+    try:
+        # Get user input
+        num_input = input("Enter a number (press Enter to stop): ")
+        
+        # Check if user wants to stop
+        if num_input.strip() == "":
+            break
+                
+        # Convert input to float and add to list
+        number = float(num_input)
+        numbers.append(number)
+            
+    except ValueError:
+        print("Invalid input! Please enter a valid number.")
+        continue
