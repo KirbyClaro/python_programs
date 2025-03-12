@@ -27,8 +27,8 @@ while True:
     if len(numbers) == 0:
         print("No numbers were entered.")
     else:
-        # Sort numbers from lowest to highest
-        sorted_numbers = sorted(numbers)
+        # Sort numbers in-place using sort()
+        numbers.sort()
         print("\nNumbers in order from lowest to highest:")
-        for num in sorted_numbers:
+        for num in numbers:
             print(num)
