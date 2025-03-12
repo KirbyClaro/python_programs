@@ -5,16 +5,21 @@
 #Display "Unique" after input when the inputted number don't have duplicate.
 #Display "Duplicate" after input when the inputted number have duplicate.
 
+# Program to handle number input and check for duplicates
 numbers = []
 
 while True:
     try:
+        # Input a number
         number = int(input("Enter a number (Enter Invalid input to stop): "))
+
+        # Check if number already exists in the list
         if number in numbers:
             print("Duplicate Number")
         else:
             print("Unique Number")
             numbers.append(number)
+
     except ValueError:
         print("Invalid input. Please enter a valid number.")
         break
