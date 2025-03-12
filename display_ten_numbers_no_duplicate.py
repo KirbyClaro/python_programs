@@ -8,7 +8,7 @@ numbers = []
 
 #get user input for 10 numbers and store them in the list 'numbers'
 print("Enter 10 Numbers")
-for i in range(10):
+for i in range(20):
     numbers_input = int(input(f"Enter the number {i+1}: "))
     numbers.append(numbers_input)
 
