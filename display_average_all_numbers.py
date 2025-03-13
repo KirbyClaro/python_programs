@@ -18,4 +18,4 @@ while True:
 
 average = sum(numbers) / len(numbers)
 
-print("The average of the numbers is:", {average:.2f})
+print(f"The average of the numbers is: {average:.2f}")
