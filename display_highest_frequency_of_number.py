@@ -18,3 +18,7 @@ if numbers:
     count_dictionary = {number_input: numbers.count(number_input) for number_input in set(numbers)}
 
     most_frequent = max(count_dictionary, key=count_dictionary.get)
+
+    print(f"The number with the most number of duplicate is: {most_frequent}")
+else:
+    prindt("No numbers entered.")
