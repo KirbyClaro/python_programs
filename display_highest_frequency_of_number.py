@@ -5,8 +5,16 @@
 #count occurance of numbers
 #display number with the most number of duplicate
 
+numbers = []
+
 while true:
     try:
         number_input = int(input("Enter a number (press Enter to stop): "))
+        numbers.append(number_input)
     except ValueError:
         break
+
+if numbers:
+    count_dictionary = {number_input: numbers.count(number_input) for number_input in set(numbers)}
+
+    most_frequent = max(count_dictionary, key=count_dictionary.get)
