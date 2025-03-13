@@ -9,6 +9,6 @@ for i in range(10):
     numbers_input = int(input(f"Enter number {i+1}: "))
     numbers.append(numbers_input)
 
-duplicates = {num for num in numbers_input if numbers.count(num) > 1}
+duplicates = {num for num in numbers if numbers.count(num) > 1}
 
 print("Duplicate numbers:", duplicates)
