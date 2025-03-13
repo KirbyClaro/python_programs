@@ -4,3 +4,9 @@
 #ask user to input numbers until user input is invalid
 #count occurance of numbers
 #display number with the most number of duplicate
+
+while true:
+    try:
+        number_input = int(input("Enter a number (press Enter to stop): "))
+    except ValueError:
+        break
