@@ -16,7 +16,9 @@ while True:
     except ValueError:
         break
 
+# Sort the numbers from highest to lowest.
 numbers.sort(reverse=True)
 
+# Display the sorted numbers.
 print("\nNumbers from highest to lowest:")
 print(*numbers) if numbers else print("No valid numbers entered.")
