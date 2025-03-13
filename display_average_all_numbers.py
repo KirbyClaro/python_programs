@@ -16,6 +16,8 @@ while True:
     except ValueError:
         break
 
+# Calculate the average of the numbers.
 average = sum(numbers) / len(numbers)
 
+# Display the average.
 print(f"The average of the numbers is: {average:.2f}")
