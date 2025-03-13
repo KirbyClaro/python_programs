@@ -15,3 +15,7 @@ while True:
         numbers.append(number_input)
     except ValueError:
         break
+
+average = sum(numbers) / len(numbers)
+
+print("The average of the numbers is:", {average:.2f})
