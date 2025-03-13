@@ -9,7 +9,7 @@
 numbers = []
 
 # Ask user to input numbers until user input is invalid.
-while true:
+while True:
     try:
         number_input = int(input("Enter a number (press Enter to stop): "))
         numbers.append(number_input)
