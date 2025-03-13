@@ -15,3 +15,8 @@ while True:
         numbers.append(number_input)
     except ValueError:
         break
+
+numbers.sort(reverse=True)
+
+print("\nNumbers from highest to lowest:")
+print(*numbers) if numbers else print("No valid numbers entered.")
