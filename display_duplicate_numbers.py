@@ -2,3 +2,6 @@
 #ask user to input 10 numbers
 #seperate all numbers with duplicates
 #print duplicate numbers
+
+for i in range(10):
+    numbers = int(input(f"Enter number {i+1}: "))
