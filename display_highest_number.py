@@ -16,7 +16,11 @@ while True:
     except ValueError:
         break
 
+# Find the highest number.
 highest_number = numbers[0]
 for number in numbers:
     if number > highest_number:
         highest_number = number
+
+# Display the highest number.
+print("The highest number is:", highest_number)
