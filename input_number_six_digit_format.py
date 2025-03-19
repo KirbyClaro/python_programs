@@ -2,14 +2,13 @@
 # Print the number in 6 digit format. Add zeros at the 
 # beginning to complete the 6 digit.
 try:
+    # Convert the input number to a string and pad it with zeros at the beginning
     number_input = int(input("Enter a number (0-1000): "))
-
-    if 0 =< number_input =< 1000:
+    if 0 <= number_input <= 1000:
         formatted_number = str(number_input).zfill(6)
+        # Print the formatted number in 6 digit format
         print("The number in 6 digit format is:", formatted_number)
-    else
+    else:
         print("Invalid input. Please enter a number between 0 and 1000.")
-
 except ValueError:
     print("Invalid input. Please enter a valid number.")
-    
