@@ -3,3 +3,7 @@
 #Print the input without the spaces in the beginning.
 
 user_input_name = input("Enter your name: ")
+
+removed_space = user_input_name.lstrip()
+
+print("Output:", removed_space)
