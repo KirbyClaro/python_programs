@@ -4,5 +4,5 @@
 #input the user's name
 fullname = input("Please enter your fullname: ")
 
-#print the input name in all capital letters
+#print the input name in all lower letters
 print("Your name is ", fullname.lower())
