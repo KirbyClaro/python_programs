@@ -7,3 +7,7 @@ fullname = input("Please enter your fullname: ")
 
 #convert the input name to pascal case
 split_fullname = fullname.split()
+
+snake_case = "_".join(split_fullname.lower() for split_fullname in split_fullname)
+
+print("Output:", snake_case)
