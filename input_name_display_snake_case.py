@@ -1,4 +1,4 @@
-#Prog10: Create a program that ask the user 
+#Prog10B5: Create a program that ask the user 
 # to input their fullname in incorrect casing. 
 # Print the input in snake case.
 
