@@ -8,6 +8,8 @@ fullname = input("Please enter your fullname: ")
 #convert the input name to pascal case
 split_fullname = fullname.split()
 
+#convert the first letter of each word to lowercase and join them with underscores
 snake_case = "_".join(split_fullname.lower() for split_fullname in split_fullname)
 
+#print the input name in snake case
 print("Output:", snake_case)
