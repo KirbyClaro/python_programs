@@ -10,3 +10,7 @@ for letter in fullname:
         reverse_casing += letter.lower()
     elif letter.islower():
         reverse_casing += letter.upper()
+    else:
+        reverse_casing += letter
+
+print("Reverse casing of your fullname:", reverse_casing)
