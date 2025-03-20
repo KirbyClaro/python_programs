@@ -2,9 +2,10 @@
 # their fullname in incorrect casing. Print 
 # each character of the input in reverse casing.
 
+#input the user's name
 fullname = input("Enter your fullname: ")
 
-reverse_casing = ""
+#reverse casing each character of the input name 
 for letter in fullname:
     if letter.isupper():
         reverse_casing += letter.lower()
@@ -13,4 +14,5 @@ for letter in fullname:
     else:
         reverse_casing += letter
 
+#print the reverse casing 
 print("Reverse casing of your fullname:", reverse_casing)
